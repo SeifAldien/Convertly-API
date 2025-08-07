@@ -44,6 +44,8 @@ Converts a given value from one unit to another.
 
 }
 
+---
+
 📂 GET /categories
 
 
@@ -54,6 +56,7 @@ Fetches a list of all available measurement categories.
 ["temperature", "length", "weight", "time"]
 
 
+---
 
 📦 GET /units?category=temperature
 
@@ -63,11 +66,13 @@ Returns supported units for the specified category.
 
 ["celsius", "fahrenheit", "kelvin"]
 
+---
 
 🧪 GET /sample-payload
 
 Get a ready-to-use sample request body for testing the /convert endpoint.
 
+---
 
 🩺 GET /health
 
@@ -77,6 +82,7 @@ Simple health check to confirm the API is running properly.
 
 { "status": "Unit Converter API is up and running" }
 
+---
 
 ⚙️ Behind the Scenes
 
@@ -91,6 +97,8 @@ Ensures required fields are present
 Prevents mismatched unit-category combinations
 
 Rejects invalid or negative values where not applicable
+
+---
 
 📘 Supported Categories & Units
 
@@ -133,6 +141,8 @@ Hours
 
 Days
 
+---
+
 🛠️ Tech Stack
 
 Java 17+
@@ -145,6 +155,7 @@ Jakarta Validation
 
 Swagger
 
+---
 
 🧰 Getting Started
 
@@ -157,6 +168,8 @@ Build the project:
 Run the application:
 
 ./mvnw spring-boot:run
+
+---
 
 🧪 Test It Out
 
