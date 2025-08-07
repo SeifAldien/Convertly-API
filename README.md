@@ -181,4 +181,6 @@ You can interact with the API using:
 
 🧵 cURL or any HTTP client
 
-🚀 Built with focus and passion by Seif Aldien Ahmed
+---
+
+🚀 Built with focus and passion by Seif Aldien Ali
